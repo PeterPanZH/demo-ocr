@@ -1,0 +1,16 @@
+{
+  "name": "demo-ocr",
+  "description": "Baidu Create 2017 AIP demo ocr",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "ssh://icode.baidu.com:8235/baidu/aip/console-admin"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
