@@ -1,7 +1,10 @@
 /**
  * @file 2-general_ocr.js
+ * @author PeterPanZH
  * @description general ocr demo
  */
+
+/* eslint-disable */
 
 const fs = require('fs');
 const querystring = require('querystring');

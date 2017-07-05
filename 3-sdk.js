@@ -1,7 +1,10 @@
 /**
  * @file 3-sdk.js
+ * @author PeterPanZH
  * @description sdk demo
  */
+
+/* eslint-disable */
 
 const fs = require('fs');
 const log = require('./util/log');

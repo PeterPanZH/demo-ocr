@@ -1,7 +1,10 @@
 /**
  * @file 1-access_token.js
+ * @author PeterPanZH
  * @description get access token
  */
+
+/* eslint-disable */
 
 const axios = require('axios');
 const log = require('./util/log');
