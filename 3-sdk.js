@@ -18,6 +18,6 @@ const sk = '';
 
 const OcrClient = new AipOcr(appId, ak, sk);
 
-const image = fs.readFileSync('assets/2.jpg');
+const image = fs.readFileSync('assets/3.jpg');
 
 OcrClient.generalBasic(new Buffer(image).toString('base64')).then(data => log(data));
